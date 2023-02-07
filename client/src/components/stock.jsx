@@ -32,7 +32,6 @@ export default function Stock({id, product}) {
              <label>
                 <li>Nombre: {product?.nombre} </li>
                 <li>Stock: {stock[0]?.cantidad}</li>
-
              </label>
              </div>}                                                                                                                        
              </ModalPortal>}                                               

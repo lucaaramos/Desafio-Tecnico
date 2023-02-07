@@ -37,13 +37,11 @@ const handleDelete = (id) =>{
                         return(                            
                            <tr   key={product?.id}> 
                                 <td>{product?.nombre}</td>
-                                <td>{product?.precio}</td>
-                                {/* <td><button  onClick={() => handleReport(product.id)}>stock</button></td> */}
+                                <td>{product?.precio}</td>                    
                                 <td>{product?.TipoProducto}</td>
                                 <td>                                
                                 <Stock id={product?.id} product={product}/>                                
-                                <button onClick={() => handleDelete(product?.id)}>Eliminar</button>
-                                {/* <button onClick={() => handleEdit(product.id,product.nombre)}>Edit</button> */}
+                                <button onClick={() => handleDelete(product?.id)}>Eliminar</button>                                
                                 <Edit product={product}></Edit>
                                 </td> 
                             </tr>                                                                                            

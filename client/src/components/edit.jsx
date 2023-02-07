@@ -49,7 +49,7 @@ useEffect(() => {
                 <div className= {'input'}>
                 <input
                 name='nombre'
-                placeholder='nombre'
+                placeholder='Nombre'
                 onChange={(e) => handleChange(e)}
                 value={edit.nombre}
                 className={'ic1'}
@@ -59,7 +59,7 @@ useEffect(() => {
 
                 <input
                 name='precio'
-                placeholder='precio'
+                placeholder='Precio'
                 onChange={(e) => handleChange(e)}
                 value={edit.precio}                
                 ></input>

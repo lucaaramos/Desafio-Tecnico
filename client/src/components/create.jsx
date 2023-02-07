@@ -64,7 +64,7 @@ export default function Create() {
             </div>
             <br></br>
             <select  onChange={(e) => handleSelect(e)}>
-            <option>Select tipo</option>
+            <option>Seleccionar tipo</option>
                 {tipo?.map(t=>
                 <option value={t?.id} key={t?.id}>{t?.descripcion}</option> )} 
             </select>
