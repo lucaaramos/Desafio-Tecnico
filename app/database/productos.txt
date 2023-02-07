@@ -1,0 +1,4 @@
+SELECT * FROM test.producto;
+INSERT INTO `test`.`producto` (`idTipoProducto`, `nombre`,`precio`) VALUES ('1', 'Notebook Asus', '2000');
+INSERT INTO `test`.`producto` (`idTipoProducto`, `nombre`,`precio`) VALUES ('2', 'Placa De Video', '1000');
+INSERT INTO `test`.`producto` (`idTipoProducto`, `nombre`,`precio`) VALUES ('3', 'Airpods', '500');

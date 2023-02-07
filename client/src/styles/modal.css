@@ -1,0 +1,85 @@
+.modal{
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.modal-contenido{
+    background: #f0f0f0;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px 20px;
+    height: 40vh;
+    margin:25vh auto;
+    position: relative;
+}
+.modal-contenido .btn{
+    display: block;
+    border-radius: 5px;
+    margin-bottom:32px ;
+}
+
+.btn{
+    background: -webkit-linear-gradient(#110110,#07bb2b );
+    background: -moz-linear-gradient(#110110,#07bb2b);
+    background: -o-linear-gradient(#07bb2b,#110110 );
+    background: linear-gradient(#110110, #07bb2b);
+    border: none;
+    -webkit-transition: background .3s ease;
+    -moz-transition: background .3s ease;
+    -o-transition: background .3s ease;
+    transition: background .3s ease;
+    background-size:100px 140px;
+    cursor:pointer;
+    border-radius: 10px; 
+    padding: 10px;
+    margin: 10px; 
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    height: 35px;
+}
+.btn:hover{
+    background-position:10px;
+}
+
+.btn[disabled]{
+    opacity: .3;
+    pointer-events: none;
+}
+input {
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 10px 10px 0;
+    width: 100%;
+    padding: 5px;
+    
+  }
+  .ic1{
+    margin-top: 40px;
+  }
+  .ic2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .button{
+      margin: 20px;
+      background-color: #009879;
+      border-radius: 5px;
+      color: white;
+      padding: 10px;
+  }
+  .button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,25 @@
+CREATE DATABASE test;
+use test;
+
+CREATE TABLE tipoProducto(
+id int not null auto_increment,
+descripcion varchar(50) not null,
+primary key(id)
+)engine=InnoDB;
+
+CREATE TABLE producto(
+id int not null auto_increment,
+idTipoProducto int not null,
+nombre varchar(50) not null,
+precio int not null,
+primary key(id),
+constraint foreign key(idTipoProducto) references tipoProducto(id)
+)engine=InnoDB;
+
+CREATE TABLE stock(
+id int not null auto_increment,
+idProducto int not null,
+cantidad int not null,
+primary key(id),
+constraint foreign key(idProducto) references producto(id) on delete cascade
+)engine=InnoDB;
